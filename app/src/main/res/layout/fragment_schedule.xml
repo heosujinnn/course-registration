@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScheduleFragment"
+    android:background="@color/colorBackground">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#335B7A">
+
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+
+                android:text=""
+                android:layout_gravity="center"
+                android:drawableStart="@drawable/ic_baseline_date_range_24"
+                android:autoSizeTextType="uniform"
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="월"
+                android:autoSizeTextType="uniform"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="화"
+                android:autoSizeTextType="uniform"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="수"
+                android:autoSizeTextType="uniform"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="목"
+                android:autoSizeTextType="uniform"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="금"
+                android:autoSizeTextType="uniform"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/design_default_color_primary_dark">
+
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text=" 8"
+                android:autoSizeTextType="uniform"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#335B7A"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="5sp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:paddingRight="1dp"
+                />
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="월"
+                android:id="@+id/monday0"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:id="@+id/tuesday0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold" />
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:id="@+id/wednesday0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:id="@+id/thursday0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:id="@+id/friday0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/purple_200">
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text=" 9"
+                android:autoSizeTextType="uniform"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#335B7A"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="7dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:paddingRight="1dp"
+                />
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="월"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/monday1"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:id="@+id/tuesday1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/cell_shape"
+                android:text="화"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="수"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/wednesday1"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="목"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/thursday1"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="금"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/friday1"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/purple_200">
+
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="10"
+                android:autoSizeTextType="uniform"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#335B7A"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:paddingRight="1dp"
+                />
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:autoSizeTextType="uniform"
+                android:text="월"
+                android:id="@+id/monday2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+
+                android:background="@drawable/cell_shape"
+
+                />
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:id="@+id/tuesday2"
+                android:background="@drawable/cell_shape"
+                android:text="화"
+                android:autoSizeTextType="uniform"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="수"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/wednesday2"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="목"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/thursday2"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:id="@+id/friday2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/purple_200">
+
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="11"
+                android:autoSizeTextType="uniform"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#335B7A"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:paddingRight="1dp"
+                />
+
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="월"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/monday3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"
+                android:background="@drawable/cell_shape"
+
+                />
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:id="@+id/tuesday3"
+                android:background="@drawable/cell_shape"
+                android:text="화"
+                android:autoSizeTextType="uniform"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="수"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/wednesday3"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="목"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/thursday3"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="금"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/friday3"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/purple_200">
+
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="#335B7A"
+                android:gravity="center"
+                android:paddingRight="1dp"
+                android:text="12"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="월"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/monday4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+
+                android:background="@drawable/cell_shape"
+
+                />
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:id="@+id/tuesday4"
+                android:background="@drawable/cell_shape"
+                android:text="화"
+                android:autoSizeTextType="uniform"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="수"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/wednesday4"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="목"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/thursday4"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="금"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/friday4"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/purple_200">
+
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="13"
+                android:autoSizeTextType="uniform"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#335B7A"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:paddingRight="1dp"
+                />
+
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:id="@+id/monday5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"
+
+                />
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:id="@+id/tuesday5"
+                android:background="@drawable/cell_shape"
+                android:text="화"
+                android:autoSizeTextType="uniform"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="수"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/wednesday5"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="목"
+                android:id="@+id/thursday5"
+                android:autoSizeTextType="uniform"
+
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="금"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/friday5"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/purple_200">
+
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="14"
+                android:autoSizeTextType="uniform"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#335B7A"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:paddingRight="1dp"
+                />
+
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="월"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/monday6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"
+                android:background="@drawable/cell_shape"
+
+                />
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:id="@+id/tuesday6"
+                android:background="@drawable/cell_shape"
+                android:text="화"
+                android:autoSizeTextType="uniform"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="수"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/wednesday6"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="목"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/thursday6"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="금"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/friday6"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/purple_200">
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="15"
+                android:autoSizeTextType="uniform"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#335B7A"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:paddingRight="1dp"
+                />
+
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="월"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/monday7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+
+                android:background="@drawable/cell_shape"
+
+                />
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:id="@+id/tuesday7"
+                android:background="@drawable/cell_shape"
+                android:text="화"
+                android:autoSizeTextType="uniform"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="수"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/wednesday7"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="목"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/thursday7"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="금"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/friday7"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/purple_200">
+
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="16"
+                android:autoSizeTextType="uniform"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#335B7A"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:paddingRight="1dp"
+                />
+
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="월"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/monday8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+
+                android:background="@drawable/cell_shape"
+
+                />
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:id="@+id/tuesday8"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/cell_shape"
+                android:text="화"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="수"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/wednesday8"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="목"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/thursday8"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="금"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/friday8"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/purple_200">
+
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="17"
+                android:autoSizeTextType="uniform"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#335B7A"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:paddingRight="1dp"
+                />
+
+
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="월"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/monday9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"
+                android:background="@drawable/cell_shape"
+
+                />
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:id="@+id/tuesday9"
+                android:background="@drawable/cell_shape"
+                android:text="화"
+                android:autoSizeTextType="uniform"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="수"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/wednesday9"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="목"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/thursday9"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+            <com.soojin.myfirsttest.AutoResizeTextView
+                android:text="금"
+                android:autoSizeTextType="uniform"
+                android:id="@+id/friday9"
+                android:background="@drawable/cell_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"/>
+        </TableRow>
+
+
+
+
+
+
+    </TableLayout>
+
+
+
+</FrameLayout>

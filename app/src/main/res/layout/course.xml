@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="추가"
+        android:background="#335B7A"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginRight="13dp"
+        android:layout_marginLeft="8dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#335B7A">
+
+            <TextView
+                android:id="@+id/courseGrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1학년"
+                android:padding="3dp"
+                android:textColor="#ffffff"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/courseTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="강의 제목"
+                android:padding="3dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                >
+            </TextView>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#ffffff">
+
+                <TextView
+                    android:id="@+id/courseProfessor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="교수명"
+                    android:padding="3dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/courseCredit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3학점"
+                    android:padding="3dp"
+                    android:textColor="#000000"
+                    >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/courseDivide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1분반"
+                    android:padding="3dp"
+                    android:textColor="#000000"
+                    >
+                </TextView>
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/coursePersonnel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="강의제한인원"
+                android:padding="3dp"
+                android:textColor="#E44C4C"
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/courseTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="강의 시간대"
+                android:padding="3dp"
+                android:textColor="#4C72E4"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>

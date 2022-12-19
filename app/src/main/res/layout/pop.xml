@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+
+    >
+
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/ic_baseline_quiz_24"
+        android:drawableLeft="@drawable/ic_baseline_quiz_24"
+        android:padding="5dp"
+        android:text=" 어플리케이션 정보"
+        android:textColor="#2F4698"
+        android:textSize="17dp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/ic_baseline_build_24"
+        android:drawableLeft="@drawable/ic_baseline_build_24"
+        android:padding="5dp"
+        android:text="  어플리케이션 버전: 0.1 Ver"
+        android:textColor="#ffffff"
+        android:background="#2F4698"
+        android:textSize="17dp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="10dp"
+    android:drawableStart="@drawable/ic_baseline_security_24"
+    android:drawableLeft="@drawable/ic_baseline_security_24"
+    android:padding="5dp"
+    android:text="  개발자: 허수진 (허세쟁이 개발자)"
+    android:textColor="#ffffff"
+    android:background="#2F4698"
+    android:textSize="17dp"
+    android:textStyle="bold">
+
+</TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/ic_baseline_travel_explore_24"
+        android:drawableLeft="@drawable/ic_baseline_travel_explore_24"
+        android:padding="5dp"
+        android:text="  블로그: https://s2jinny.tistory.com/"
+        android:textColor="#ffffff"
+        android:background="#2F4698"
+        android:textSize="17dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:drawableStart="@drawable/ic_baseline_contact_emergency_24"
+            android:drawableLeft="@drawable/ic_baseline_contact_emergency_24"
+            android:padding="5dp"
+            android:text="  허세쟁이 운영진 소개"
+            android:textColor="#ffffff"
+            android:background="#2F4698"
+            android:textSize="17dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:isScrollContainer="true">
+
+            <LinearLayout
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/itsme"
+                        ></ImageView>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="허수진"
+                                android:textColor="#2F4698"
+                                android:textStyle="bold"
+                                android:textSize="17dp"
+                                >
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="미디어소프트웨어학과 20학번"
+                                android:textColor="#000000"
+                                android:textSize="15sp"
+                                >
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="https://github.com/heosujinnn"
+                                android:textColor="#000000"
+                                android:textSize="15sp"
+                                >
+
+                            </TextView>
+
+                        </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
