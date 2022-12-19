@@ -1,4 +1,4 @@
-# course-registration 수강신청 어플
+# course-registration 수강신청 어플:ledger:
 
 ![image](https://user-images.githubusercontent.com/104800090/208505250-d666c404-71c2-45dc-8380-3b23b8020b98.png)
 
